@@ -5,7 +5,6 @@ CREATE DATABASE fwitter_db;
 USE fwitter_db;
 CREATE TABLE users (
   id INT(11) AUTO_INCREMENT NOT NULL,
-  name VARCHAR(16) NOT NULL,
-  user_name VARCHAR(16) NOT NULL,
+  username VARCHAR(16) NOT NULL,
   PRIMARY KEY (id)
 ); 
